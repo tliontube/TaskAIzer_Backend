@@ -11,8 +11,8 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-task(app)
-user(app)
+task(app);
+user(app);
 
 connectDB()
   .then(() => {

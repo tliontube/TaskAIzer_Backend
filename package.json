@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node express-app.js",
-    "dev": "nodemon express-app.js"
+    "dev": "nodemon express-app.js",
+    "build": "npm install && npm rebuild bcrypt --build-from-source"
   },
   "keywords": [],
   "author": "",
@@ -25,3 +26,5 @@
     "nodemon": "^3.1.7"
   }
 }
+
+
